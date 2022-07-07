@@ -970,7 +970,7 @@ div.wp-block-columns.fw-activities > div.wp-block-column div.wp-block-spacer {
 #meta-category .post-categories li {
     margin-left: 0;
 }
-#meta-category a {
+#meta-category li > a {
     color: #888;
     display: block;
     text-decoration: none;
@@ -980,11 +980,11 @@ div.wp-block-columns.fw-activities > div.wp-block-column div.wp-block-spacer {
     transition: 0.3s;
     margin-bottom: 6px;
 }
-#meta-category a:hover {
+#meta-category li > a:hover {
     color: #666;
     background: #ddd;
 }
-#meta-category a::before {
+#meta-category li > a::before {
     content: "\f07b";
     font-family: "Font Awesome 5 Free";
     margin-right: 4px;
@@ -1403,4 +1403,7 @@ dl dt {
         top: 1.8em !important;
         transform: translateY(-50%) scale(1.5) !important;
     }
+}
+.header.color-overlay {
+    background-color: var(--fw-fairwind) !important;
 }
